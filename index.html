@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+        integrity="sha512-Evv84Mr4kqVGRNSgIGL/F/aIDqQb7xQ2vcrdIwxfjThSH8CSR7PBEakCr51Ck+w+/U6swU2Im1vVX0SVk9ABhg=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        new addition 
+</head>
+
+<body>
+    <div id="overlay" class="overlay">
+    </div>
+
+    <section>
+
+
+
+        <article id="msg">
+            <i class="fa-solid fa-check"></i>
+            <h2 id="success"></h2>
+            <button onclick="clr()">Ok</button>
+        </article>
+
+        <h5>Get the latest news/updates</h5>
+
+        <div>
+
+            <input type="email" name="" id="email" placeholder="Your Email">
+            <button class="send" onclick="chk()">
+                <i class="fa-solid fa-paper-plane"></i>
+                <i class="fa-solid fa-spinner" id="load"></i>
+            </button>
+        </div> <br>
+
+        <p id="error"></p>
+
+
+    </section>
+
+
+    <script src="script.js"></script>
+</body>
+
+</html>
