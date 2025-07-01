@@ -1,6 +1,8 @@
 let email = document.getElementById('email')
 let err = document.getElementById('error')
 
+document.getElementById('overlay').style.display = 'none';
+
 let chk = () => {
     let allValid = true
     if (!email.value.includes('@')) {

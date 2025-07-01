@@ -6,12 +6,12 @@
 }
 
 body {
-    background-image: url(email-bg.jpg);
+    /* background-image: url(email-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
     /* background-size: cover; */
     background-blend-mode: darken;
-    background-color: rgba(0, 0, 0, 0.8);
+    background-color: rgba(0, 0, 0, 0.8); */
 }
 
 section {
@@ -160,7 +160,7 @@ h5 {
     width: 100vw;
     height: 100vh;
     background-color: gray;
-    opacity: 0.5;
+     background-color: rgba(128,128,128,0.5);
     position: fixed;
     top: 0;
     left: 0;
