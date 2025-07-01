@@ -9,9 +9,9 @@ body {
     background-image: url(email-bg.jpg);
     background-position: center;
     background-repeat: no-repeat;
-  /* background-size: cover; */
-  background-blend-mode: darken;
-  background-color: rgba(0, 0, 0, 0.8);
+    /* background-size: cover; */
+    background-blend-mode: darken;
+    background-color: rgba(0, 0, 0, 0.8);
 }
 
 section {
@@ -21,27 +21,27 @@ section {
     flex-flow: column;
     justify-content: center;
     align-items: center;
-    margin-top: 150px;
+    margin-top: 250px;
 }
 
 @media screen and (max-width: 520px) {
-    section{
+    section {
         flex-flow: column-reverse;
     }
 }
 
 
-.main{
+.main {
     border: 1px solid blueviolet;
     padding: 50px 40px;
     border-radius: 5px;
     /* background-color: gainsboro; */
     backdrop-filter: blur(10px);
-box-shadow: inset 1px 1px 10px blue;
+    box-shadow: inset 1px 1px 10px blue;
 }
 
-@media screen and (max-width: 520px) {
-    .main{
+@media screen and (max-width: 620px) {
+    .main {
         padding: 50px 10px;
     }
 }
@@ -58,7 +58,7 @@ box-shadow: inset 1px 1px 10px blue;
 }
 
 @media screen and (max-width: 520px) {
-    .send-div{
+    .send-div {
         flex-flow: column;
     }
 }
@@ -74,7 +74,7 @@ input {
 }
 
 @media screen and (max-width: 520px) {
-    input{
+    input {
         padding-right: 100px;
         margin-top: 20px;
     }
@@ -97,7 +97,7 @@ input {
 }
 
 @media screen and (max-width: 520px) {
-    .send{
+    .send {
         height: 100px;
         width: 250px;
         padding: 15px 2px;
@@ -142,11 +142,11 @@ p {
     left: -250px;
 }
 
-.wrong{
+.wrong {
     border: 1px solid red;
 }
 
-.pad{
+.pad {
     padding: 20px;
 }
 
@@ -161,9 +161,10 @@ h5 {
     height: 100vh;
     background-color: gray;
     opacity: 0.5;
-    position: absolute;
+    position: fixed;
     top: 0;
     left: 0;
+    bottom: 0;
 }
 
 article {
@@ -186,9 +187,9 @@ article {
 }
 
 
-@media screen and (max-width: 520px) {
-    article{
-          padding: 20px 40px;
+@media screen and (max-width: 620px) {
+    article {
+        padding: 20px 30px;
     }
 }
 
